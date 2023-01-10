@@ -2,6 +2,9 @@
 
 using namespace std;
 
+template <typename swap>
+void mySwap(swap &,swap &);
+
 int main(){
 	int x, y;
 	string a, b;
@@ -30,3 +33,10 @@ int main(){
 	return 0;
 }
 
+template <typename swap>
+void mySwap(swap &a,swap &b) {
+	swap temp;
+	temp = a;
+	a = b;
+	b = temp;
+}
