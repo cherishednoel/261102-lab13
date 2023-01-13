@@ -25,7 +25,7 @@ double sequence2(int n) {
     if (n == 1)
         return 1;
     else
-        return sqrt(n) * sequence2(n - 1);
+        return sqrt(n * sequence2(n - 1));
 }
 
 double sequence3(int n) {
