@@ -2,3 +2,4 @@
 ### 2. F char
 ### 3. 8.9 float
 ### 4. Error เพราะใน function กำหนดว่าตัวแปรตัวที่สองที่ใส่เข้ามาต้องเป็นตัวแปรประเภท int แต่เราใส่ตัวแปรประเภทอื่นลงไป ทำให้โปรแกรมไม่สามารถทำงานได้
+<img width="1582" alt="Screenshot 2566-01-13 at 7 28 18 AM" src="https://user-images.githubusercontent.com/110964402/212209369-97664f1d-10b6-4d96-bb4f-cd024ccc2f7e.png">
