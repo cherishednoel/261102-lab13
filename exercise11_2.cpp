@@ -3,7 +3,7 @@
 using namespace std;
 
 long long int sum = 0;
-long long int fibo1 = 1;
+long long int fibo1 = 0;
 long long int fibo2 = 1;
 
 long long int fibonacci(int);
@@ -18,16 +18,16 @@ int main() {
 }
 
 long long int fibonacci(int n) {
-    if(n == 0 || n == 1) {
-        return n;
-    } else if (n == 2) {
-        return 1;
-    } else {
-        for(int i = 3; i <= n; i++) {
+    int i = 0;
+    while(i < n) {
+        if(i == 0 || i == 1) {
+            sum = i;
+        } else {
             sum = fibo1 + fibo2;
             fibo1 = fibo2;
             fibo2 = sum;
         }
-        return sum;
+        i++;
     }
+    return sum;
 }
